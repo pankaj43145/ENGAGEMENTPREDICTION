@@ -1,0 +1,92 @@
+.voiceover-page {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.voiceover-loading,
+.voiceover-error,
+.voiceover-no-data {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
+
+.voiceover-error {
+  color: #ff4444;
+}
+
+.voiceover-data {
+  margin-top: 20px;
+}
+
+.voiceover-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.voiceover-item:hover {
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+
+.voiceover-video-number,
+.voiceover-video-description,
+.voiceover-video-link {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.voiceover-video-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.voiceover-video-link a:hover {
+  text-decoration: underline;
+}
+
+.voiceover-hr {
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.voiceover-engagement {
+  margin-top: 10px;
+}
+
+.voiceover-engagement input[type="text"] {
+  width: 5%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.voiceover-submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #009579;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.voiceover-page img {
+  width: 100px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintains aspect ratio */
+}
